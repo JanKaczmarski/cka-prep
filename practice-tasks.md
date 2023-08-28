@@ -42,7 +42,7 @@ gl pi2000-xvrpt > pi-result.txt
 
 
 
-:point_right: Q. Create a yaml file called nginx-deploy.yaml for a deployment of three replicas of nginx, listening on the container's port 80.
+❗ Q. Create a yaml file called nginx-deploy.yaml for a deployment of three replicas of nginx, listening on the container's port 80.
 They should have the labels role=webserver and app=nginx. The deployment should be named nginx-deploy.
 Expose the deployment with a load balancer and use a curl statement on the IP address of the load balancer
 to export the output to a file titled output.txt.

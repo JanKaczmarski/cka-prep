@@ -63,7 +63,7 @@ curl IP > output.txt
 
 
 
-:point_right: Q.  Scale the deployment you just made down to 2 replicas
+❗ Q.  Scale the deployment you just made down to 2 replicas
 
 Solution:
 

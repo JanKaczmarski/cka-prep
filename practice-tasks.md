@@ -126,7 +126,7 @@ Solution:
 sudo kubectl label node texasdave2c.mylabserver.com rack=qa
 
 
-:point_right: Q.  Create a file called counter.yaml in your home directory and paste the following yaml into it:
+❗ Q.  Create a file called counter.yaml in your home directory and paste the following yaml into it:
 
 Solution:
 

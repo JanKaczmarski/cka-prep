@@ -71,7 +71,7 @@ sudo kubectl scale deployment nginx-deploy --replicas=2
 
 
 
-:point_right: Q. Create a pod called "haz-docs" with an nginx image listening on port 80.
+❗ Q. Create a pod called "haz-docs" with an nginx image listening on port 80.
 Attach the pod to emptyDir storage, mounted to /tmp in the container.
 Connect to the pod and create a file with zero bytes in the /tmp directory called my-doc.txt.
 
@@ -119,7 +119,7 @@ root@haz-docs-5b49cb4d87-2lm5g:/tmp# ls
 my-doc.txt
 
 
-❗ Q. Label the worker node of your cluster with rack=qa.
+:point_right: Q. Label the worker node of your cluster with rack=qa.
 
 Solution:
 

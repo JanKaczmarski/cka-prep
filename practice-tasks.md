@@ -145,7 +145,7 @@ Once its logs exceed a count of 20 (no need to be precise — any time after it 
 save the logs into a file in your home directory called count.result.txt.
 
 
-:point_right: Q.
+❗ Q.
 Create a new namespace called "cloud9".
 Create a pod running k8s.gcr.io/liveness with a liveliness probe that uses httpGet to
 probe an endpoint path located at /cloud-health on port 8080.
@@ -154,7 +154,7 @@ The initial delay is 3 seconds and the period is 3.
 
 
 
-:point_right: Q. Create a deployment with two
+❗ Q. Create a deployment with two
 cloud_user@k8s-control:~$ nano new-file.txt
 cloud_user@k8s-control:~$ vi new-file.txt
 cloud_user@k8s-control:~$ cat new-file.txt

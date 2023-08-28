@@ -119,7 +119,7 @@ root@haz-docs-5b49cb4d87-2lm5g:/tmp# ls
 my-doc.txt
 
 
-:point_right: Q. Label the worker node of your cluster with rack=qa.
+❗ Q. Label the worker node of your cluster with rack=qa.
 
 Solution:
 
